@@ -2,10 +2,17 @@
 
 Il faut au préalable :
 * Avoir git installé sur votre machine. ([Installer git](https://git-scm.com/downloads))
+-----------------
+Une fois que git est installé sur votre machine, il faudra aller sur VSCode pour cloner le projet. <br> 
+Pour faire ceci, il suffit d'appuyer sur (```CTRL + SHIFT + P```). <br> 
+Un terminal de commande va s'ouvrir. Tapez "git clone" + coller l'URL du projet. Lancez la commande en appuyant sur (```ENTER```). <br> 
+Et voilà, le projet est cloné.
 
+(Commande à taper dans le terminal de commande de VSCode)
 ```shell
 git clone https://github.com/0xdlo/MVC_BLUEPRINT.git
 ```
+([Pour plus d'info sur le clonage d'un projet](https://docs.github.com/fr/repositories/creating-and-managing-repositories/cloning-a-repository))
 
 # Modèle MVC en détail
 
@@ -31,3 +38,5 @@ git clone https://github.com/0xdlo/MVC_BLUEPRINT.git
 -----------------
 6. LE TEMPLATE: /app/views/template/index.php
 	1. Le code HTML complet + affichage des zones dynamiques (```$content```)
+
+@0xdlo
